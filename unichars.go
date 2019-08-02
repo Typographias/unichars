@@ -101,8 +101,6 @@ func main() {
 			fmt.Printf("%s\n\n", listStrings)
 		}
 
-		fmt.Printf("\n%s%t", "raw", *raw)
-
 		if err = scanner.Err(); err != nil {
 			log.Fatal(err)
 		}
